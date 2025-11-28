@@ -5,6 +5,8 @@ module.exports = ({ env }) => ({
   apiToken: {
     salt: env('API_TOKEN_SALT'),
   },
+  url: process.env.ADMIN_URL,   // 🔥 bắt buộc
+  serveAdminPanel: true,        // 🔥 bắt buộc
   transfer: {
     token: {
       salt: env('TRANSFER_TOKEN_SALT'),
