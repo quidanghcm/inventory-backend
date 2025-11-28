@@ -39,6 +39,9 @@ const bootstrap = (app) => {
 // };
 export default {
   config: {
+    head: {
+      title: "Smileviet Admin1",
+    },
     translations: {
       en: {
         "Auth.form.welcome.title": "Welcomep",
