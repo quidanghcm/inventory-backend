@@ -41,11 +41,11 @@ export default {
   config: {
     translations: {
       en: {
-        "Auth.form.welcome.title": "Welcome to My App",
-        "Auth.form.welcome.subtitle": "Please login to continue",
+        "Auth.form.welcome.title": "Welcomep",
+        "Auth.form.welcome.subtitle": "Hãy đăng nhập để tiếp tục",
       },
       vi: {
-        "Auth.form.welcome.title": "Chào mừng đến với My App",
+        "Auth.form.welcome.title": "Welcome",
         "Auth.form.welcome.subtitle": "Hãy đăng nhập để tiếp tục",
       },
     },
